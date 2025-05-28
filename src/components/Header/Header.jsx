@@ -11,6 +11,7 @@ function Header() {
       className="bg-body-tertiary "
       bg="dark"
       data-bs-theme="dark"
+      fixed="top"
     >
       <Container>
         <Navbar.Brand href="#home" id="brand">
