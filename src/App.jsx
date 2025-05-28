@@ -1,12 +1,8 @@
 import "./App.css";
-import Button from "react-bootstrap/Button";
+import Header from "./components/Header/Header";
 
 function App() {
-  return (
-    <Button as="a" variant="primary">
-      Click me
-    </Button>
-  );
+  return <Header />;
 }
 
 export default App;
